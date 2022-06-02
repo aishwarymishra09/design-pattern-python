@@ -53,7 +53,6 @@ class Product:
     def __init__(self):
         self.parts = []
 
-
 class Director:
     """ It is the executable class, it gives the product, implimnting the complex representation"""
 

@@ -5,26 +5,25 @@ class IComputer(metaclass=ABCMeta):
 
     @staticmethod
     @abstractmethod
-    def processor():
+    def processor(feature):
         """ add processor to the compupter"""
 
     @staticmethod
     @abstractmethod
-    def generation():
+    def generation(feature):
         """ add the generation to the computer """
 
     @staticmethod
     @abstractmethod
-    def ram():
+    def ram(feature):
         """ declares the ram to the computer """
 
     @staticmethod
     @abstractmethod
-    def memory():
+    def memory(feature):
         """ declares the memory of the computer"""
 
     @staticmethod
     @abstractmethod
     def type():
         """ either Laptop or DeskTop """
-        

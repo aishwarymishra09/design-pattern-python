@@ -12,4 +12,4 @@ ROOM.get_speaker()
 ROOM.sheet_change()
 
 # get bill
-print(ROOM.get_bill())
+print("The total bill for the Deluxe room is:  " + str(ROOM.get_bill()))
